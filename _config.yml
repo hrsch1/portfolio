@@ -5,4 +5,4 @@ github: [metadata]
 useLocalCss: false
 
 # Base URL for links
-baseurl: summer/
+baseurl: /summer

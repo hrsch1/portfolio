@@ -7,7 +7,7 @@ title: Portfolio 2
 <section class="grid">
 
 <article class="grid">
-    <img src="assets/img/sweatpants.jpg" alt="Front of custom sweatpants">
+    <img src="{{ site.baseurl }}/assets/img/sweatpants.jpg" alt="Front of custom sweatpants">
 </article>
 
 <div markdown="1">
