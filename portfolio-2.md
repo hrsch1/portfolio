@@ -12,8 +12,7 @@ title: Portfolio 2
 
 <div markdown="1">
 
-Making cargo pants and shorts always brings out my creativity. I love combining many different cutouts and creating unique looking garments. For this piece, I created strips out of many cargo shorts and used a base black cargo pant to attach them to the back of the leg.
-
+These sweatpants were 100% made from scratch using some of my favorite measurements from past pants I've created. I purchased this the material when I was on vacation in Indonesia visiting family, and I have created many pairs of pants with this material. I have incorporated this material into other projects as well such as using for lining and hybrid material pants.
 
 {% include portfolio-nav.html %}
 
