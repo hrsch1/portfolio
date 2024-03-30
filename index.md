@@ -2,7 +2,7 @@
 title: Home
 ---
 
-# Plain Vanilla GitHub Pages
+# Herschel
 
 <section class="grid">
 <article markdown="1">
