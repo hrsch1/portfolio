@@ -1,2 +1,28 @@
 /* Add CSS rules to override Pico */
 /* https://picocss.com/docs */
+
+header {
+    border-bottom: 1px solid var(--pico-muted-border-color);
+}
+
+article {
+    box-shadow: none;
+    border: 2px solid var(--pico-muted-border-color);
+}
+
+h1, h2 {
+    font-family: "Titillium Web", sans-serif;
+}
+
+@media print {
+    header {
+        display: none;
+    }
+    body {
+        margin-top: 2em;
+    }
+    #portfolio-nav {
+        display: none;
+    }
+  }
+  

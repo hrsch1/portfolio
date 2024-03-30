@@ -1,0 +1,13 @@
+<aside id="portfolio-nav">
+    <h2>Portfolio Pieces</h2>
+    <nav>
+        <ul>
+            <li>{% if page.title != "Portfolio 1" %}<a href="{% link portfolio-1.md %}">Black jeans</a>{% else
+                %}Black jeans{% endif %}</li>
+            <li>{% if page.title != "Portfolio 2" %}<a href="{% link portfolio-2.md %}">Sweatpants</a>{% else
+                %}Sweatpants{% endif %}</li>
+            <li>{% if page.title != "Portfolio 3" %}<a href="{% link portfolio-3.md %}">Cargo pants</a>{% else
+                %}Cargo pants{% endif %}</li>
+        </ul>
+    </nav>
+</aside>

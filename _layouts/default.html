@@ -3,18 +3,24 @@
 
 <head>
   <meta charset="utf-8">
-  <title>{{ site.data.metadata.title | default: 'Plain Vanilla GitHub Pages' }}</title>
+  <title>{{ page.title | default: 'Plain Vanilla GitHub Pages' }}{% if page.title != "Herschel Levy Portfolio" %} |
+    Herschel
+    Levy{% endif %}</title>
   <meta name="description"
     content="{{ site.data.metadata.description | default: 'Free, easy, low-tech website template using GitHub Pages' }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light dark">
   <link rel="icon" href="{{ site.baseurl }}/favicon.ico" sizes="any">
+  {% include font.html %}
   <link rel="stylesheet"
     href="{% if site.useLocalCss == true %}{{ site.baseurl }}/assets/css/pico.blue.min.css{% else %}https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.blue.min.css{% endif %}">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/custom.css">
 </head>
 
 <body class="{{ page.body-style }}">
+  <header>
+    {% include nav.html %}
+  </header>
   <main class="{{ page.main-style  | default: 'container' }}">
     {{ content }}
   </main>

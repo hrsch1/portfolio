@@ -1,29 +1,20 @@
 ---
-title: Home
+title: Herschel Levy Portfolio
 ---
 
-# Herschel
+# Portfolio
 
 <section class="grid">
-<article markdown="1">
-
-The purpose of this project is to make it as easy as possible for low-tech people like me to create and host basic web pages for free on [GitHub Pages](https://pages.github.com/).
-
-## How it works
-
-After creating your own copy of this template repository, add new pages as you need them using the Markdown (.md) format. See the [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/) reference for examples of how to add different elements to your pages.
-
-If you want to go beyond Markdown with more layout options and interactive components, you can use the [Pico CSS Framework](https://picocss.com/) with your pages.
-
-</article>
-
 <article>
-  <section markdown="1">
-  ![Screenshot of "create a new repository" action](assets/img/create-repo.jpg)
-  </section>
-  <section>
-    <a href="https://github.com/lowcodelounge/plain-vanilla-gh-pages" role="button" style="display:block">Get the template on GitHub</a>
-  </section>
-  <a href="https://youtu.be/jlkHEmgQhGU" role="button" class="outline" style="display:block">Watch the tutorial on YouTube</a>
+    <img src="assets/img/black-jeans-front.jpg" alt="Front of custom baggy jeans">
+    <h2><a href="{% link portfolio-1.md %}">Black jeans</a></h2>
+</article>
+<article>
+    <img src="assets/img/sweatpants.jpg" alt="Front of custom sweatpants">
+    <h2><a href="{% link portfolio-2.md %}">Sweatpants</a></h2>
+</article>
+<article>
+    <img src="assets/img/cargo-pants.jpg" alt="Front of custom cargo pants">
+    <h2><a href="{% link portfolio-3.md %}">Cargo pants</a></h2>
 </article>
 </section>
