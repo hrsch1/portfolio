@@ -3,3 +3,6 @@ github: [metadata]
 
 # Use local CSS if working offline without access to CDN.
 useLocalCss: false
+
+# Base URL for links
+baseurl: summer/
