@@ -1,12 +1,13 @@
 ---
 title: Portfolio 3
+main-style: container-fluid
 ---
 
-# Portfolio Piece 3: Cargo pants
+# Portfolio: Cargo pants
 
 <section class="grid">
 
-<article class="grid">
+<article>
     <img src="{{ site.baseurl }}/assets/img/cargo-pants.jpg" alt="Front of custom cargo pants">
 </article>
 

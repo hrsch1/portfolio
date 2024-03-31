@@ -1,5 +1,6 @@
 ---
 title: Herschel Levy Portfolio
+main-style: container-fluid
 ---
 
 # Portfolio

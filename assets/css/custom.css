@@ -5,8 +5,20 @@ header {
     border-bottom: 1px solid var(--pico-muted-border-color);
 }
 
+header nav {
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
 h1, h2 {
     font-family: "Titillium Web", sans-serif;
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 768px;
+    }
 }
 
 @media print {

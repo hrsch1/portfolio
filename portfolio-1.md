@@ -1,15 +1,20 @@
 ---
 title: Portfolio 1
+main-style: container-fluid
 ---
 
-# Portfolio Piece 1: Black Jeans
+# Portfolio: Black Jeans
 
 <section class="grid">
 
-<article class="grid">
+<div>
+<article>
     <img src="{{ site.baseurl }}/assets/img/black-jeans-front.jpg" alt="Front of custom baggy jeans">
+</article>
+<article>
     <img src="{{ site.baseurl }}/assets/img/black-jeans-back.jpg" alt="Back of custom baggy jeans">
 </article>
+</div>
 
 <div markdown="1">
 
